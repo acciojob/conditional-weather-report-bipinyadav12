@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import WeatherDisplay from './Weather';
+import WeatherDisplay from './WeatherDisplay';
 
 const App = () => {
   const [weather, setWeather] = useState({ temperature: 0, conditions: '' });
